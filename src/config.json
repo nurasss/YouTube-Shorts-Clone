@@ -1,0 +1,46 @@
+[
+  {
+    "src": "video1.mp4",
+    "channel": "@Kanan Eins",
+    "description": "Erstes Video – kurze Beschreibung",
+    "likes": 13.5,
+    "comments": 7.8,
+    "shares": 4.2
+  },
+  {
+    "src": "Book_of_dead.mp4",
+    "channel": "@casino",
+    "description": "Book of Dead",
+    "isAd": true,
+    "link": "https://yourcasino.link",
+    "likes": 6.1,
+    "comments": 1.2,
+    "shares": 0.5
+  },
+  {
+    "src": "video2.mp4",
+    "channel": "@FunnyUser",
+    "description": "Some normal video",
+    "likes": 10.2,
+    "comments": 3.5,
+    "shares": 2.1
+  },
+  {
+    "src": "Sweet_Bonanza.mp4",
+    "channel": "@casino",
+    "description": "Sweet Bonanza",
+    "isAd": true,
+    "link": "https://yourbonanza.link",
+    "likes": 8.4,
+    "comments": 2.1,
+    "shares": 0.9
+  },
+  {
+    "src": "video3.mp4",
+    "channel": "@AnotherUser",
+    "description": "Normal content again",
+    "likes": 11.5,
+    "comments": 5.2,
+    "shares": 3.0
+  }
+]

@@ -1,0 +1,101 @@
+.app {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  position: relative;
+  background-color: black;
+  padding-bottom: 56px;  
+}
+
+.app::-webkit-scrollbar {
+  width: 0;
+  background: transparent; /* скрыть скроллбар */
+}
+
+.video {
+  height: 100vh;
+  scroll-snap-align: start;
+}
+.app {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.app::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+.video {
+  height: 100vh;
+  scroll-snap-align: start;
+  position: relative;
+  padding-bottom: 70px; /* чтобы не перекрывал bottom nav */
+}
+
+.video__loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 18px;
+}
+
+.video__mute {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+.nav-icon {
+  color: white;
+  font-size: 20px;
+}
+
+.register-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.app {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+  padding-bottom: 56px; /* чтобы контент не накрывал нижнюю панель */
+  background-color: black;
+}
+
+.app::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+.video {
+  height: 100vh;
+  scroll-snap-align: start;
+  position: relative;
+}
