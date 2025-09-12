@@ -50,7 +50,4 @@ config.json      → video list
 * Save like status
 * Improve mobile gestures
 
-```
 
-Do you want me to rewrite this README for the **React version** of your project (with `create-react-app`), or should I leave it for the simple **HTML/JS structure**?
-```
